@@ -43,7 +43,7 @@ int main(){
     int src;
     cin>>src;
     memset(vis, false, sizeof(vis));
-    memset(level, 0, sizeof(level));
+    memset(level, -1, sizeof(level));
     bfs(src);
 
     for(int i=0; i<n; i++){
