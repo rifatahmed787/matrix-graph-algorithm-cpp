@@ -31,8 +31,10 @@ int main(){
             cin>>a[i][j];
         }
     };
-
+  
     int si, sj;
+    cin>>si>>sj;
+    memset(vis, false, sizeof(vis));
     dfs(si, sj);
     return 0;
 }
